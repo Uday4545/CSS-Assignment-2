@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Effects</title>
+    <link rel="shortcut icon" href="./android-chrome-192x192.png" type="image/x-icon">
+    <style>
+        .container{ 
+            width: 50%;
+            margin: auto; 
+        }
+        .picture img{ 
+           width: 250px;
+           height: auto;
+           border: 1.5px solid black;
+           margin-top: 10px;
+           border-radius: 10px;       
+        }
+        section{
+            background-color: rgba(246, 195, 25, 0.888);
+            width: 280px;
+            height: 265px;
+            text-align: center;
+            display: block;
+            margin: auto;
+            border-radius: 10px;
+            border: 1.5px solid black;
+            
+            
+        }
+        section:hover{
+            opacity: 0.6;
+          
+        }
+        p{
+            padding: 5px;
+           
+        }
+        div {
+            display: flex;
+            width: 50%;
+            margin: auto;
+        }
+        .picture .img2 {
+            width: 250px;
+           height: 170px;
+           border: 1.5px solid black;
+           margin-top: 10px;
+           border-radius: 10px;
+        }
+        h1 {
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <h1>With and without hover effects</h1>
+    <div class="container">
+       <section class="picture">
+        <img loading="eager" src="./img1.jpg" alt="BMV">
+        <p><b>BMW:</b> BMW is my dream brand. One day I will buy it for myself. I will work hard and earn it no matter what.</p>
+       </section> </p>  <br> <br>
+       <section class="picture">
+        <img class="img2" loading="eager" src="./aboutUs.png" alt="BMV">
+        <p><b>BMW:</b> BMW is my dream brand. One day I will buy it for myself. I will work hard and earn it no matter what.</p>
+       </section>  
+    </div>
+</body>
+</html>
